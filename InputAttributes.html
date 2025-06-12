@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Employee Course Registration Form</h2>
+    <form action="./success.html">
+        <input type="text" value="NEOSOFT" readonly>
+        <input type="text" value="NEOSOFT" disabled>
+        <input type="text" placeholder="username" title="Only alphabets allowed" pattern="[A-Za-z]*" minlength="2" maxlength="7" >
+        <label for="age">Enter your age:</label>
+        <input type="number" min="21" max="40" id="age" title="Age is betweeen 21 to 40"> 
+
+        <input type="text" placeholder="Enter name" required>
+
+        <div class="gendergroup">
+            <input type="radio" id="radio1" value="male" name="gender" checked><lable for="radio1">:Male</lable>
+            <input type="radio" id="radio2" value="female" name=gender><lable for="radio1">:Female</lable>
+        </div>
+        <button type="submit">REGISTER</button>
+        <input type="submit" value="REGISTER">
+        <input type="image" height="50" width="100" src="https://t4.ftcdn.net/jpg/00/28/27/95/360_F_28279558_SqNXoZWsQLfWYVxyKe9hVzZ49dJtKLsc.jpg">
+    </form>
+    
+</body>
+</html>
